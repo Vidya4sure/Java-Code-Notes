@@ -30,6 +30,9 @@ public class InputArray_02 {
 
 
         // We can use Arrays.toString(variable_name) for storing the number and printout it without using extra loop
+        
+        // Array.toString (array): Internally uses for loop and gives the output in proper format.
+
         System.out.print(Arrays.toString(roll));
 
         System.out.println();
