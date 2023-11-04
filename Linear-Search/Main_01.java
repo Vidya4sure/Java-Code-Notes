@@ -3,6 +3,8 @@
 public class Main_01 {
     public static void main(String[] args) {
         int[] nums = {100, 23, 25, 99, 88, 7, 54, 65};
+
+        // Want to Search target value
         int target = 7 ;
         int ans = linearSearch(nums, target);
         System.out.println(ans);
@@ -15,6 +17,8 @@ public class Main_01 {
     // otherwise if item not found return -1
 
     static int linearSearch(int[] arr , int target){
+
+        // Here we are checking array having value
         if (arr.length == 0){
             return -1 ;
         }
